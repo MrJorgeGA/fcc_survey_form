@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FFC: Survey Form</title>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+
+    <body>
+        <h1 id="title">Title</h1>
+        <p id="description">Description</p>
+        <form id="survey-form">
+            <div class="form-inner">
+                <label for="name" id="name-label">Name</label>
+                <div class="inner-box">
+                    <input class="filling" type="text" placeholder="Name" id="name" required>
+                </div>
+            </div>
+            <div class="form-inner">
+                <label for="email" id="email-label">Email</label>
+                <div class="inner-box">
+                    <input class="filling" type="email" placeholder="Email" id="email" required>
+                </div>
+            </div>
+            <div class="form-inner">
+                <label for="number" id="number-label">Number</label>
+                <div class="inner-box">
+                    <input class="filling" type="number" placeholder="Some number" id="number" min="10000000" max="99999999">
+                </div>
+            </div>
+            <div class="form-inner">
+                <label for="dropdown-menu">Menu</label>
+                <div class="inner-box">
+                    <select class="filling" name="dropdown-menu" id="dropdown">
+                        <option value="none">Select an option</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                        <option value="option4">Option 4</option>
+                        <option value="option5">Option 5</option>
+                        <option value="option6">Option 6</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-inner">
+                <label for="radio1">
+                    <input type="radio" id="radio1" name="radios" value="radio1" checked>
+                    Option 1
+                </label>
+                <label for="radio2">
+                    <input type="radio" id="radio2" name="radios" value="radio2">
+                    Option 2
+                </label>
+                <label for="radio3">
+                    <input type="radio" id="radio3" name="radios" value="radio3">
+                    Option 3
+                </label>
+            </div>
+            <div class="form-inner">
+                <label for="checkbox1">
+                    <input type="checkbox" id="checkbox1" name="checkboxes" value="checkbox1">
+                    Option 1
+                </label>
+                <label for="checkbox2">
+                    <input type="checkbox" id="checkbox2" name="checkboxes" value="checkbox2">
+                    Option 2
+                </label>
+                <label for="checkbox3">
+                    <input type="checkbox" id="checkbox3" name="checkboxes" value="checkbox3">
+                    Option 3
+                </label>
+                <label for="checkbox4">
+                    <input type="checkbox" id="checkbox4" name="checkboxes" value="checkbox4">
+                    Option 4
+                </label>
+            </div>
+            <div class="form-inner">
+                <p>
+                    Sugestions
+                <p>
+                <textarea name="textarea" id="textarea" rows="7" placeholder="This is a text area"></textarea>
+            </div>
+            <div class="form-inner">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <form action=""></form>
+    </body>
+</html>

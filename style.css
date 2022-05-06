@@ -1,0 +1,41 @@
+html {
+    background-color: #7B96ED;
+    text-align: center;
+    color: #060915;
+}
+
+#survey-form {
+    background-color: #39456E;
+    margin: 10px 20%;
+    padding: 1% 5%;
+    color: #D8DEFC;
+}
+
+.form-inner {
+    display: grid;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.inner-box {
+    height: 2rem;
+    background-color: white;
+    border-radius: .25rem;
+    display: flex;
+}
+
+label {
+    margin-bottom: .25rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 1% 0% 0% 1%;
+    margin: 0%;
+    border-radius: .25rem;
+}
+
+.filling {
+    border-radius: .25rem;
+    width: 100%;
+}
